@@ -101,6 +101,7 @@ nav ul {
     font-family: var(--font-header);
     font-size: 1rem;
 }
+
 /* 
 .bisqare nav ul li a:hover {
     background-color: var(--color4);
@@ -127,7 +128,7 @@ button {
     border-bottom: 5px solid #dadada;
     padding-left: 4rem;
     padding-right: 4rem;
-  }
+}
 
 .working {
     display: flex;
@@ -228,14 +229,14 @@ h5 {
     margin-right: 30%;
     color: var(--color3);
     font-size: 1.6rem;
-    line-height: 1rem;
+    line-height: 2rem;
 }
 
 h6 {
     color: var(--color3);
     font-family: var(--font-header);
     font-size: 1.3rem;
-    line-height: 1rem;
+    line-height: 1.5rem;
     margin-bottom: 1rem;
 }
 
@@ -288,4 +289,38 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 1400px) {
+    .os {
+        padding-left: 10rem;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .os {
+        padding-left: none;
+    }
+
+    main article section {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .headdd {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h5 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .texxt {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
